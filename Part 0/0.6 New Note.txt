@@ -1,0 +1,15 @@
+note over browser: 
+spa.js get the form-element from the page and make a event handler to handle
+the form submit event.
+
+browser->server: HTTP Post https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+browser: the event hander call e.preventDefault() to prevent the default handling of
+	the submittion of the form.
+browser: the event handler creates a new note.
+browser: the event handler call add the new note to the note list
+browser: the browser rerenders the note list on the page and sends the new note to the server
+
+---------------------------------------------------------------------------------------------
+source: 
+https://fullstackopen.com/en/part0/fundamentals_of_web_apps#single-page-app
+https://fullstackopen.com/en/part0/fundamentals_of_web_apps#running-application-logic-in-the-browser
